@@ -2,6 +2,7 @@
   import MenuIcon from "$lib/MenuIcon.svelte";
   import BrandIcon from "$lib/BrandIcon.svelte";
   import MenuLink from "$lib/MenuLink.svelte";
+  import SettingsIcon from "$lib/SettingsIcon.svelte";
 </script>
 
 <div class="navbar dark">
@@ -16,6 +17,6 @@
     <MenuLink href="/portfolio" name="Portfolio" />
   </div>
   <div class="px-4">
-    <MenuIcon />
+    <SettingsIcon />
   </div>
 </div>
