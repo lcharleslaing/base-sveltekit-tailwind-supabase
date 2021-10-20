@@ -4,17 +4,18 @@
   import MenuLink from "$lib/MenuLink.svelte";
 </script>
 
-<div class="navbar items-center justify-between">
+<div class="navbar dark">
   <div class="flex">
     <MenuIcon />
-    <BrandIcon brand="BIG2TINY" href="." />
+    <BrandIcon brand="BLOG" href="." />
   </div>
-  <div class="flex">
+  <div class="navlinks">
     <MenuLink href="." name="Home" />
+    <MenuLink href="/blog" name="Blog" />
     <MenuLink href="/about" name="About" />
     <MenuLink href="/portfolio" name="Portfolio" />
   </div>
-  <div>
+  <div class="px-4">
     <MenuIcon />
   </div>
 </div>

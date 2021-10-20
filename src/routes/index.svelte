@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import NinjaTitle from "$lib/NinjaTitle.svelte";
+</script>
+
+<NinjaTitle brand="Svelte Ninja!" sveltesize="20" logosize="32" textsize="4" />
