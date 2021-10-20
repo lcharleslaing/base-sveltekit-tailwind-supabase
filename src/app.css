@@ -2,3 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.navbar {
+  @apply flex items-center w-screen p-2 shadow-md;
+}
+
+div.navbar.dark {
+  @apply bg-gray-800 text-gray-100;
+}
+
+div.navbar.light {
+  @apply bg-gray-300 text-gray-800;
+}
+
+.menuIcon {
+  @apply flex p-2;
+}
+
+.menuIcon:hover {
+  @apply bg-gray-100 rounded-lg;
+}
+
+h1,
+h2,
+h3 {
+  @apply text-center font-extrabold text-gray-800;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
