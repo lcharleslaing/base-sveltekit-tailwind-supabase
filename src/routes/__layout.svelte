@@ -4,7 +4,8 @@
 
 <svelte:head>
   <title>Svelte Ninja Blog</title>
-  <link rel="stylesheet" href="src/app.css" />
+  <link rel="stylesheet" href="src\css\styles.css" />
+  <link rel="stylesheet" href="src\app.css" />
 </svelte:head>
 <div>
   <Navbar />
