@@ -23,7 +23,9 @@
       <h3>{post.title.substring(0, 20)}...</h3>
       <p>{post.body.substring(0, 100)}...</p>
       <p class="readlink mt-4">
-        <a sveltekit:prefetch href={`/blog/${post.id}`}>Read more...</a>
+        <a class="readmore" sveltekit:prefetch href={`/blog/${post.id}`}
+          >Read more...</a
+        >
       </p>
     </div>
   {/each}
