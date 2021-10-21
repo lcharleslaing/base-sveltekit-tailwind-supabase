@@ -3,4 +3,4 @@ node_modules
 /build
 /.svelte-kit
 /package
-/app.css
+.vercel_build_output
