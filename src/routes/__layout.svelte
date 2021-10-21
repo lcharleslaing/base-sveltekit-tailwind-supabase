@@ -1,5 +1,5 @@
 <script>
-  import Navbar from "../lib/Navbar.svelte";
+  import Navbar from "$lib/Navbar.svelte";
 </script>
 
 <svelte:head>
